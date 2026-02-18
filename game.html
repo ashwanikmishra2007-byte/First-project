@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heads and Tails</title>
+    <link rel="stylesheet" href="gamestyle.css">
+</head>
+<body>
+    <p class="heading">
+        Heads or Tails
+    </p>
+    <section class="game-area">
+        <div class="scoreboard">
+            <div class="money">
+                Money: $<span id="money">100</span>
+            </div>
+            <div class="bet">
+                <div class="heads">
+                    <img src="heads.jpeg" class="headsimage">
+                    <p class="heads1">
+                        Heads
+                    </p>
+                </div>
+                <div class="tails">
+                    <img src="tails.jpeg" class="tailsimage">
+                    <p class="tails1">
+                        Tails
+                    </p>
+                </div>
+            </div>
+            <div class="play">
+                <p>
+                    Choose heads or tails
+                </p>
+            </div>
+            <div class="reset">
+                <p class="resetp">
+                    RESET
+                </p>
+            </div>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>
